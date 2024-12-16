@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Fill-up the form below</h1>
+    <form action="submitform.php" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email">
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password">
+        </div><br>
+        <div>
+            <input type="radio">
+            <label for="gender">Male</label>
+            <input type="radio">
+            <label for="gender">Female</label>
+        </div><br>
+        <div>
+            <label for="age">Age range:</label>
+            <select name="age" id="age">
+                <option value="18">12-18</option>
+                <option value="35">18-35</option>
+                <option value="old">35+</option>
+            </select>
+        </div><br>
+
+        <button>Submit form</button>
+    </form>
+</body>
+
+</html>
